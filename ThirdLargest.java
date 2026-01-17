@@ -1,8 +1,6 @@
 class ThirdLargest {
     int thirdLargest(int[] arr) {
         int n = arr.length;
-
-        // If less than 3 elements, third largest not possible
         if (n < 3) {
             return -1;
         }
@@ -31,3 +29,4 @@ class ThirdLargest {
 }
 
 // geeksforgeeks problem
+
